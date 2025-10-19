@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/8d2ee56e20.js" crossorigin="anonymous"></script>
+<style>
+    
+</style>
+</head>
+<body>
+    <div id="header">
+ 
+        <div class="container">
+            <nav>
+                <img src="images/lim.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fas fa-bars" onclick="openmenu()" ></i>
+            </nav>
+
+            <div class="header-text">
+                <p>FASHION DESIGNER | ILLUSTRATOR </p>
+                <h1>HI, I'm <span>FIYIN <br> SALISU</span>   From Nigeria </h1>
+            </div>
+        </div>
+    </div>
+<!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/fiyinabout.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify;">I'm a digital Fashion illustrator, 3D dress modeler and a fashion designer. I merge creativity with tech by creating physical/virtual outfits and digital styling concepts using cutting-edge software. My work centers on storytelling through fashion, conscious styling and innovation, especially from an African perspective. I'm also passionate about teaching fashion skills and helping others understand sustainability in a relatable way.</p>
+                    
+                    <div class="tab-titles">
+                           <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                           <p class="tab-links" onclick="opentab('experience')">Experience</p> 
+                           <p class= "tab-links" onclick="opentab('education')">Education</p> 
+                    </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Fashion Illustration</span><br>Visual fashion designs</li>
+                        <li><span>3D Modelling</span><br>Virtual fashion rendering</li>
+                        <li><span>Sewing and Styling</span><br>Styling for sustainable fashion educatio</li>
+                  
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - Current</span><br>Building a styling brand, teaching conscious <br> dressing and sustainable fashion</li>
+                        <li><span>2022 - 2024</span><br>Facilitated design training sessions for schools</li>
+                        <li><span>2020 - 2022</span><br> Developed a mini collection inspired by summer, <br> fringe and sculptural accessories</li>
+                        <li><span>2018 - 2020</span><br>Created fashion illustrations to local brands </li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Msc in mass Communication</li>
+                       
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------Services---------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-pencil"></i>
+                    <h2>Fashion Illustration</h2>
+                    <p>Hand drawn and visual representations of fashion designs, garments and accessories. </p>
+                    <a href="#" style="margin-top: 30px;">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>3D Virtual Modelling</h2>
+                    <p>3D virtual outfit modelling and garment visualization.</p>
+                    <a href="#" style="margin-top: 40px;">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Sewing</h2>
+                    <p>Sewing with personal styling consultations, enhancing garment-making process.</p>
+                    <a href="#" style="margin-top: 60px;">Learn More</a>
+                </div>
+
+                
+                <div>
+                    <i class="fa-solid fa-award"></i>
+                    <h2>Fashion Education</h2>
+                    <p>Fashion Education Workshops and creative skill training.</p>
+                    <a href="#" style="margin-top: 40px;">Learn More</a>
+                </div>
+
+                
+                <div>
+                    <i class="fa-brands fa-medium"></i>
+                    <h2>Visual Content Creation</h2>
+                    <p>Visual Content Creation for fashion and lifestyle brands.</p>
+                    <a href="#" style="margin-top:40px;">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+     
+<!-- -----------Portfolio--------------     -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/sf.png" alt="">
+                <div class="layer">
+                    <h3>Fashion Illustration</h3>
+                    <p>A digital fashion illustration inspired by traditional yoruba agbada embroidery </p>
+                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/fini.png" alt="">
+                <div class="layer">
+                    <h3>3D Modelling</h3>
+                    <p>3D modelled summer outfit collection inspired by fringe and sea elements</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/sfd.png" alt="">
+                <div class="layer">
+                    <h3>Styling Guide</h3>
+                    <p>Styling guide visuals graphics created for sustaiable fashion education campaign </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------------contact-------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-envelope"></i>Mikky@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>08137912187</p>
+
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="" name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright @ iCreabot <i class="fa-solid fa-microchip"></i>  </p>
+    </div>
+</div>
+</body>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links"); 
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw5M8UjN7jKmhfYoinGUj3BhnRMcrxUEea1CyDtDc5w1r5urJG99e8dAEtkeQAX1O1K/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },500)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</html>
