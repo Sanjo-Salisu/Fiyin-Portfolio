@@ -368,10 +368,14 @@ nav .fas{
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(images/fiyin2.png);
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: -90px;
     }
+    
     .header-text{
-        margin-top: 220%;
-        font-size: 17px;
+        margin-top: 170%;
+        font-size: 18px;
     }
     .header-text h1{
         font-size: 30px;
